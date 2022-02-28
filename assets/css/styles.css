@@ -32,7 +32,6 @@ html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    background: black;
 }
 
 body::-webkit-scrollbar {
@@ -68,7 +67,7 @@ img {
     height: 100%;
     top: 0;
     right: -120px;
-    background: url(../../img/wave.svg) no-repeat;
+    background: url(../img/wave.svg) no-repeat;
     background-size: cover;
 }
 
@@ -241,6 +240,7 @@ input + input {
 .copy {
     font-size: 1.6rem;
     color: #656b77;
+    display: flex;
 }
 
 .copy a {
@@ -248,7 +248,7 @@ input + input {
 }
 
 .preview {
-    background: url(../../img/bg_lines.svg) no-repeat;
+    background: url(../img/bg_lines.svg) no-repeat;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -264,6 +264,7 @@ input + input {
 .card {
     width: 688px;
     height: 400px;
+    z-index: 1;
     background: linear-gradient(71.32deg, #8e2de2 0%, #4a00e0 100%);
     position: relative;
     -webkit-transform: rotateX(51deg) rotateZ(43deg);
@@ -506,12 +507,12 @@ input + input {
         height: 120px;
         top: 0;
         left: 0;
-        background: url(../../img/wave_mobile.svg) no-repeat;
+        background: url(../img/wave_mobile.svg) no-repeat;
         background-size: cover;
     }
     .preview {
-        height: 60vh;
-        background: url(../../img/bg_lines_mobile.svg) no-repeat;
+        height: 50vh;
+        background: url(../img/bg_lines_mobile.svg) no-repeat;
         background-size: cover;
     }
 }
